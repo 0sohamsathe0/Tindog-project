@@ -1,0 +1,167 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  text-align: center;
+}
+
+h1, h2, h2, h4, h5, h6 {
+  font-family: "Montserrat-bold";
+}
+
+/* heading */
+.big-heading{
+  font-family: "montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight:400;
+}
+
+
+/* padding */
+.container-fluid{
+  padding: 7% 15%
+}
+
+
+/* navbar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.25rem;
+  font-family: "Montserrat-light"
+}
+
+
+/* title-section */
+#title {
+  text-align: left;
+  background-color: #ff4c68;
+  color: white;
+  padding-bottom: 50px;
+}
+#title .container-fluid {
+  padding: 2% 15%;
+}
+.dog {
+  width: 53%;
+  transform: rotate(25deg);
+  position: absolute;
+  left: 20%;
+}
+
+
+/* Download-btn */
+.Download-btn {
+  margin: 7% 3% 5% 0;
+}
+
+
+/* features */
+#features {
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+ .features-heading{
+   padding: 5%;
+   font-weight: 600;
+ }
+ .features-div {
+   padding: 50px;
+ }
+.features-icon {
+  color: #FF6363;
+}
+.features-icon:hover {
+  color: #f52f4c;
+}
+
+
+/* testimonial */
+#testimonials {
+  background-color: #FF6363;
+  color: white;
+}
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.testimonial-text{
+  font-family: "Montserrat-bold";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+/* Press */
+#press {
+  background-color: #FF6363;
+  padding: 3%;
+}
+.press-img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+/*  pricing  */
+#pricing {
+  padding: 70px;
+}
+.pricing-col {
+  padding: 3% 2%;
+}
+.pricing-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+ .card-heading{
+   padding: 5%;
+   font-weight: 600;
+ }
+
+
+/* Call to Action */
+#cta {
+  background-color: #ff4c68;
+}
+.cta-txt {
+  font-size: 3.5rem;
+  font-family: "Montserrat";
+  font-weight: 600;
+  line-height: 1.5;
+  color: white;
+  margin-bottom: 50px;
+}
+.Download-btn2 {
+  margin: 0 15px 50px;
+}
+
+
+/* Footer */
+.icon{
+  margin: 10px;
+}
+
+/* media query */
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .dog {
+    padding-top: 5%;
+    position: static;
+    transform: rotate(0);
+  }
+}
